@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quotes Generator</title>
+    <link rel="stylesheet" href="./src/css/styles.css">    
+</head>
+<body>
+    <div class="quote-generator">
+        <h1 class="title">Random Quotes Generator</h1>
+        <p class="subheading">"Randomness is not the absence of order, but the presence of possibilities."</p>
+        <div class="quotebox">
+            <h2 class="quote">Quote will appear here</h2>
+            <h3 class="author">Author unknown</h3>
+        </div>
+        <div>
+            <button class="quote-button" type="button" onclick="generateQuote()" >New Quote</button>
+        </div>
+        <div>
+            <p class="copyquote" onclick="copyQuote()" ><img src="images/copy.png" class= "icon-style" alt="Copy Icon"></p>            
+            <p class="sharequote" onclick="shareQuote()" ><img src="images/share.png" class= "icon-style" alt="Share Icon"></p>
+        </div>        
+    </div>    
+    <script src="./src/app/index.js"></script>
+    <script src="./src/app/copyQuote.js"></script>
+    <script src="./src/app/shareQuote.js"></script>
+</body>
+<footer>
+    <div class="footer">
+        <p class="footer-left">
+            <a class= "credits" href="https://github.com/theriturajps/Quotes-API" target="_blank" rel="noopener">Credit: Quotes API</a>
+        </p>
+        <p class="footer-right">
+            <a href="https://github.com/devendran-m" class= "menu" target="_blank" rel="noopener"><img src="images/dev_github.png" class= "icon-style" alt="GitHub Icon"></a>
+            <a href="https://www.linkedin.com/in/mdevendran/" class= "menu" target="_blank" rel="noopener"><img src="images/dev_x_twitter.png" class= "icon-style" alt="Twitter Icon"></a>
+            <a href="https://x.com/Zuven3" class= "menu" target="_blank" rel="noopener"><img src="images/dev_linkedin.png" class= "icon-style" alt="LinkedIn Icon"></a>
+        </p>
+        <h5>Built with &hearts; from Dev </h5>
+        </div>
+    </div>
+</footer>
+</html>

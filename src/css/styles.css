@@ -1,0 +1,118 @@
+html, body {
+    background: rgb(171,129,205);
+    background: linear-gradient(0deg, rgba(171,129,205,1) 0%, rgba(34,42,104,1) 100%);         
+    margin: 0;
+    padding: 0;
+    height: 100%;    
+}
+
+main {
+    flex: 1; /* Fills available space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title, .subheading {
+    align-items: center;
+    text-align: center;
+    color: #fafffd
+}
+
+.subheading {
+    align-items: center;
+    text-align: center;
+    color: #fa824c
+}
+
+p {
+    text-align: center; 
+
+}
+
+.quote-generator, .quote-box, .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100 auto;
+    margin-top: 50px;
+}
+
+.quotebox   {
+    width: 300px auto;    
+    height: 200px auto;    
+    margin-top: 100px;
+    padding: 10px;
+    border: 2px solid #9fd356;
+    overflow: auto;
+    border-radius: 20px;    
+}
+
+.quote  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100 auto;
+    color: #fafffd;        
+}
+
+.quote-button {
+    padding: 15px;
+    margin: 15px;
+    border-radius: 5px;
+    background-color: #e2adf2;
+    color: black;
+    font-size: larger;    
+}
+
+.copyquote, .sharequote {
+    display: flex;
+}
+
+.author {
+    color: #9fd356;;    
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    height: 200px;
+    margin: 200px;    
+}
+
+.footer-left {
+    font-size: 20px;    
+    float: center;    
+}
+
+
+
+.footer-right {
+  margin-top:20px;
+  float:center;  
+}
+
+a.menu:hover {
+    border-radius: 2px;
+    font-size: 20px;    
+}
+
+.icon-style {
+    height:60px;
+    margin-left:20px;
+    margin-top:5px;
+}
+  
+.icon-style:hover {
+    background-color: #ab81cd;
+    padding:5px;
+    border-radius: 15px;
+    transition: 0.5s;
+    transition-duration: 0.25s;
+    color: azure;
+}
