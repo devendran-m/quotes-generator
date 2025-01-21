@@ -2,7 +2,7 @@
 
 ## A random quotes generator using Quotes API
 
-### Description: A simple app that fetches random quotes from the Quotes API and allows users to copy or share them. Built using HTML, CSS, and JavaScript.
+A simple app that fetches random quotes from the Quotes API and allows users to copy or share them. Built using HTML, CSS, and JavaScript.
 
 ### Features:
 
